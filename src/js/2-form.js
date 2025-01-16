@@ -40,7 +40,7 @@ feedbackForm.addEventListener('submit', event => {
     return;
   }
 
-  console.log(JSON.stringify(formData));
+  console.log(formData);
   storage.remove('feedback-form-state');
   formData.email = '';
   formData.message = '';
